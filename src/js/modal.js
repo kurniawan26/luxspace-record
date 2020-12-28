@@ -17,8 +17,7 @@ for (let index = 0; index < modalTriggers.length; index++) {
 
         addClass(modalOverlay, modaWrapperClassNames)
         const modalContent = document.createElement("div")
-
-    modalContent.innerHTML = e.atributes?.["data-content"].value;
+    modalContent.innerHTML = e.attributes?.["data-content"].value;
     addClass(modalContent, "bg-white p-0 md:p-6");
     modaWrapper.append(modalOverlay)
     modaWrapper.append(modalContent)
