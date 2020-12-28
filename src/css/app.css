@@ -22,7 +22,7 @@
     }
 
     .overlay .video {
-        @apply absolute transform bg-blue-200 bg-no-repeat bg-center rounded-full items-center justify-center flex;
+        @apply absolute transform bg-blue-200 bg-no-repeat bg-center rounded-full flex items-center justify-center;
         background-image: url("../images/design/icon-play.svg");
         top: 50%; left: 50%;
     }
@@ -33,8 +33,8 @@
     }
     .hero .hero-cta{
         @apply w-12 h-12;
-        transform: translateX(-75px) translateY(-50px);
-        background-size: 37.5%
+        transform: translateX(-75px) translateY(-50%);
+        background-size: 37.5%;
     }
 }
 
