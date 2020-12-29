@@ -3,7 +3,7 @@ import {addClass, removeClass} from "./utils-class";
 const modalTriggers = document.getElementsByClassName("modal-trigger");
 const modaWrapperClassNames = "fixed inset-0 bg-black opacity-35";
 for (let index = 0; index < modalTriggers.length; index++) {
-    const e = array[index];
+    const e = modalTriggers[index];
     
     e.addEventListener("click", function() {
         const modaWrapper = document.createElement("div")
