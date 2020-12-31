@@ -6,3 +6,5 @@ import "./anchor";
 import "./carousel";
 import "./accordion";
 import "./slider"
+import "./shoppingCart"
+import "./shoppingDetail"
